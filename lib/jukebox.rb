@@ -57,6 +57,7 @@ def run(songs)
   input = gets.strip
   
   until input != "exit"
+    run(songs)
     if input == "list"
       list(songs)
       run(songs)
