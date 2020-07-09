@@ -22,10 +22,10 @@ def help
 end
 
 def list(songs)
-  count = 0
+  i = 0
   songs.each_with_index do |song|
-    count += 1
-    puts "#{count}. #{song}"
+    i += 1
+    puts "#{i}. #{song}"
   end
 end
 
