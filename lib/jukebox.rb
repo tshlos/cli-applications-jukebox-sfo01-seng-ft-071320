@@ -67,8 +67,7 @@ def run(songs)
       help
       run(songs)
   end
-      exit_jukebox
-
+    exit_jukebox
 end
   
 #   if input == "exit"
