@@ -59,12 +59,12 @@ def run
   if input == "exit"
     exit_jukebox
   elsif input == "list"
-      list
+    list
   elsif input == "play"
-      play
-    else
-      help
-    end
+    play
+  elsif input == "help"
+    help
+  else
     exit_jukebox
   end
 end
