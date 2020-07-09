@@ -57,11 +57,10 @@ def run
   input = gets.strip
   
   if input == "exit"
-    
-    
-    if input == "list"
+    exit_jukebox
+  elsif input == "list"
       list
-    elsif input == "play"
+  elsif input == "play"
       play
     else
       help
