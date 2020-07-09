@@ -35,9 +35,11 @@ def play(songs)
   input = gets.strip
   
   if input.to_i > 0 && input.to_i < 10
-    return "Playing #{songs[input.to_i - 1]}"
+    puts "Playing #{songs[input.to_i - 1]}"
+    return
   elsif songs.include?(input)
-    return "Playing #{input}"
+    puts "Playing #{input}"
+    return
   else
     puts "Invalid input, please try again"
   end
