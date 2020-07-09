@@ -53,11 +53,11 @@ end
 
 def run
   help
+  puts "Please enter a command:"
   input = gets.strip
   
-  while input != "exit"
-    puts "Please enter a command:"
-    help
+  if input == "exit"
+    
     
     if input == "list"
       list
