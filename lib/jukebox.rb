@@ -51,7 +51,7 @@ def exit_jukebox
 end
 
 
-def run
+def run(songs)
   help
   puts "Please enter a command:"
   input = gets.strip
@@ -60,7 +60,7 @@ def run
     exit_jukebox
   elsif input == "list"
     list(songs)
-    
+    run(songs)
   elsif input == "play"
     play
   elsif input == "help"
