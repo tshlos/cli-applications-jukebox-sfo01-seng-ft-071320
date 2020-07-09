@@ -31,7 +31,6 @@ end
 
 
 def play(songs)
-  help
   puts "Please enter a song name or number:"
   input = gets.strip
   
@@ -53,7 +52,7 @@ end
 
 
 def run
-
+  help
   input = gets.strip
   
   while input != "exit"
