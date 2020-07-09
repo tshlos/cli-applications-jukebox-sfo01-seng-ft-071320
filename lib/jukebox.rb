@@ -66,9 +66,6 @@ def run(songs)
   elsif input == "help"
     help
   else
-    help
-    puts "Please enter a command:"
-    input
   end
 end
 
