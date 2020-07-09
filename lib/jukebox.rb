@@ -65,7 +65,9 @@ def run
   elsif input == "help"
     help
   else
-    exit_jukebox
+    help
+    puts "Please enter a command:"
+    input
   end
 end
 
